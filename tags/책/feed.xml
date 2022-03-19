@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>RGBlog</title>
+      <link>https://ryugibo.github.io/blog/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>ko-kr</language>
+      <managingEditor> (Gibo Ryu)</managingEditor>
+      <webMaster> (Gibo Ryu)</webMaster>
+      <lastBuildDate>Sun, 20 Mar 2022 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://ryugibo.github.io/blog/tags/책/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://ryugibo.github.io/blog/blog/nomadcorders-bookclub-pragmatic-til-1</guid>
+    <title>nomadcorders bookclub pragmatic til 1</title>
+    <link>https://ryugibo.github.io/blog/blog/nomadcorders-bookclub-pragmatic-til-1</link>
+    <description>노마드코더 북클럽 실용주의 프로그래머 TIL 1일차</description>
+    <pubDate>Sun, 20 Mar 2022 00:00:00 GMT</pubDate>
+    <author> (Gibo Ryu)</author>
+    <category>노마드코더</category><category>책</category><category>TIL</category>
+  </item>
+
+    </channel>
+  </rss>
