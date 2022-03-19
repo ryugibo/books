@@ -7,9 +7,9 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://ryugibo.github.io/blog',
   siteRepo: 'https://github.com/ryugibo/blog',
-  siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  siteLogo: '/blog/static/images/logo.png',
+  image: '/blog/static/images/avatar.png',
+  socialBanner: '/blog/static/images/twitter-card.png',
   email: '',
   github: 'https://github.com/ryugibo',
   twitter: 'https://twitter.com/ryugibo',
@@ -36,7 +36,7 @@ const siteMetadata = {
     // content security policy in the `next.config.js` file.
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
-    provider: 'giscus', // supported providers: giscus, utterances, disqus
+    provider: '', // supported providers: giscus, utterances, disqus
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/
