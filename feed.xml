@@ -7,9 +7,19 @@
       <language>ko-kr</language>
       <managingEditor> (Gibo Ryu)</managingEditor>
       <webMaster> (Gibo Ryu)</webMaster>
-      <lastBuildDate>Sun, 20 Mar 2022 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 22 Mar 2022 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://ryugibo.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://ryugibo.github.io/blog/blog/nomadcoders-bookclub-pragmatic-2</guid>
+    <title>노마드코더 북클럽 실용주의 프로그래머 TIL 두번째</title>
+    <link>https://ryugibo.github.io/blog/blog/nomadcoders-bookclub-pragmatic-2</link>
+    <description>~ 2장 실용주의 접근법</description>
+    <pubDate>Tue, 22 Mar 2022 00:00:00 GMT</pubDate>
+    <author> (Gibo Ryu)</author>
+    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category>
+  </item>
+
   <item>
     <guid>https://ryugibo.github.io/blog/blog/nomadcorders-bookclub-pragmatic-til-1</guid>
     <title>노마드코더 북클럽 실용주의 프로그래머 TIL 1일차</title>
