@@ -7,9 +7,19 @@
       <language>ko-kr</language>
       <managingEditor> (Gibo Ryu)</managingEditor>
       <webMaster> (Gibo Ryu)</webMaster>
-      <lastBuildDate>Fri, 25 Mar 2022 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 27 Mar 2022 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://ryugibo.github.io/blog/tags/북클럽/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://ryugibo.github.io/blog/blog/nomadcoders-bookclub-pragmatic-5</guid>
+    <title>노마드코더 북클럽 실용주의 프로그래머 TIL 다섯번째</title>
+    <link>https://ryugibo.github.io/blog/blog/nomadcoders-bookclub-pragmatic-5</link>
+    <description>5장 구부러지거나 부러지거나</description>
+    <pubDate>Sun, 27 Mar 2022 00:00:00 GMT</pubDate>
+    <author> (Gibo Ryu)</author>
+    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category>
+  </item>
+
   <item>
     <guid>https://ryugibo.github.io/blog/blog/nomadcoders-bookclub-pragmatic-4</guid>
     <title>노마드코더 북클럽 실용주의 프로그래머 TIL 네번째</title>
