@@ -1,0 +1,64 @@
+---
+title: 노마드코더 북클럽 실용주의 프로그래머 미션 두번째
+date: '2022-03-28'
+tags: ['노마드코더', '북클럽', '책', 'TIL']
+draft: false
+summary: 5장까지 23개 연습문제 중 하나를 선택해서 풀기
+images: []
+layout: PostLayout
+canonicalUrl:
+---
+
+5장까지 23개 연습문제 중 하나를 선택해서 풀기
+
+## 연습 문제 11.
+
+여러분은 설정 파일에 `YAML` 형식을 사용했던 애플리케이션을 다시 쓰고 있다. 여러분의 회사가 `JSON`을 쓰기로 표준을 정했기 때문에 수많은 `.yaml` 파인을 `.json` 파일로 바꾸어야 한다. 디렉터리를 인자로 받아서 그 안의 `.yaml` 파일들을 각각 그에 해당하는 `.json` 파일로 바꾸는 스크립트를 작성하라. 예를 들어 `database.yaml`은 `database.json`이 되고, 파일의 내용은 `JSON` 문법을 따라야 한다.
+
+## 코드
+
+https://github.com/ryugibo/book-pragmatic-programmer/blob/main/exercises_11/potato/
+
+```Elixir
+defmodule Potato do
+  def write_to_json({:ok, yaml_data}, yaml_path) do
+    yaml_path
+    |> String.replace_suffix(".yaml", ".json")
+    |> File.write(Poison.encode!(yaml_data))
+  end
+
+  def write_to_json(error, _) do
+    error
+  end
+
+  def main([path | _]) do
+    path
+    |> Path.absname()
+    |> Path.join("*.yaml")
+    |> Path.wildcard()
+    |> Enum.map(fn yaml_path ->
+      Task.async(fn ->
+        yaml_path
+        |> YamlElixir.read_from_file()
+        |> write_to_json(yaml_path)
+      end)
+    end)
+    |> Task.await_many()
+  end
+end
+```
+
+실행은
+
+1. `mix escript.build` 명령어로 `potato` 실행 파일을 생성
+2. `./potato {경로}` 로 실행
+
+## 사족
+
+1. `yamerl`로 시도
+
+   - 처음에 `yamerl`을 사용하려 했으나, `erlang` 라이브러리라 문자열이 `charlist` 로 변환되는 문제가 발생..
+
+2. 테스트 코드에 YTS 적용
+
+   - 테스트 코드로 마땅한 예제 파일이 없어서 `yaml`에서 제공하는 `test suite` 전체를 복사해서 테스트를 구성하는데 몇가지 처리되지 않는 경우가 발생.. elixir 의 라이브러리엔 YTS 표시가 안붙어있다..
