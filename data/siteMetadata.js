@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'BIR',
+  title: 'Books I Read',
   author: 'Gibo Ryu',
   headerTitle: 'Books I Read',
   description: 'A blog written about books i read.',
