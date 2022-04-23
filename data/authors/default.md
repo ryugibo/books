@@ -1,6 +1,6 @@
 ---
 name: Gibo Ryu
-avatar: /blog/static/images/avatar.png
+avatar: /books/static/images/avatar.png
 # occupation: Professor of Atmospheric Science
 # company:
 # email:
