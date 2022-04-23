@@ -1,15 +1,25 @@
 
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-      <title>BIR</title>
+      <title>Books I Read</title>
       <link>https://ryugibo.github.io/books/log</link>
       <description>A blog written about books i read.</description>
       <language>ko-kr</language>
       <managingEditor> (Gibo Ryu)</managingEditor>
       <webMaster> (Gibo Ryu)</webMaster>
-      <lastBuildDate>Tue, 05 Apr 2022 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 24 Apr 2022 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://ryugibo.github.io/books/tags/til/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://ryugibo.github.io/books/log/nomadcoders-bookclub-cleancode-1</guid>
+    <title>클린코드 - 1장. 깨끗한 코드</title>
+    <link>https://ryugibo.github.io/books/log/nomadcoders-bookclub-cleancode-1</link>
+    null
+    <pubDate>Sun, 24 Apr 2022 00:00:00 GMT</pubDate>
+    <author> (Gibo Ryu)</author>
+    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category><category>클린코드</category>
+  </item>
+
   <item>
     <guid>https://ryugibo.github.io/books/log/nomadcoders-bookclub-pragmatic-10</guid>
     <title>노마드코더 북클럽 실용주의 프로그래머 TIL 아홉번째</title>
@@ -17,7 +27,7 @@
     <description>9장 실용주의 프로젝트</description>
     <pubDate>Tue, 05 Apr 2022 00:00:00 GMT</pubDate>
     <author> (Gibo Ryu)</author>
-    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category>
+    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category><category>실용주의-프로그래머</category>
   </item>
 
   <item>
@@ -27,7 +37,7 @@
     <description>8장 프로젝트 전에</description>
     <pubDate>Sun, 03 Apr 2022 07:19:00 GMT</pubDate>
     <author> (Gibo Ryu)</author>
-    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category>
+    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category><category>실용주의-프로그래머</category>
   </item>
 
   <item>
@@ -37,7 +47,7 @@
     <description>7장 코딩하는 동안</description>
     <pubDate>Sun, 03 Apr 2022 00:00:00 GMT</pubDate>
     <author> (Gibo Ryu)</author>
-    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category>
+    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category><category>실용주의-프로그래머</category>
   </item>
 
   <item>
@@ -47,7 +57,7 @@
     <description>6장 동시성</description>
     <pubDate>Wed, 30 Mar 2022 00:00:00 GMT</pubDate>
     <author> (Gibo Ryu)</author>
-    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category>
+    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category><category>실용주의-프로그래머</category>
   </item>
 
   <item>
@@ -57,7 +67,7 @@
     <description>5장까지 23개 연습문제 중 하나를 선택해서 풀기</description>
     <pubDate>Mon, 28 Mar 2022 00:00:00 GMT</pubDate>
     <author> (Gibo Ryu)</author>
-    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category>
+    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category><category>실용주의-프로그래머</category>
   </item>
 
   <item>
@@ -67,7 +77,7 @@
     <description>5장 구부러지거나 부러지거나</description>
     <pubDate>Sun, 27 Mar 2022 00:00:00 GMT</pubDate>
     <author> (Gibo Ryu)</author>
-    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category>
+    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category><category>실용주의-프로그래머</category>
   </item>
 
   <item>
@@ -77,7 +87,7 @@
     <description>4장 실용주의 편집증</description>
     <pubDate>Fri, 25 Mar 2022 00:00:00 GMT</pubDate>
     <author> (Gibo Ryu)</author>
-    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category>
+    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category><category>실용주의-프로그래머</category>
   </item>
 
   <item>
@@ -87,7 +97,7 @@
     <description>3장 실용주의 접근법</description>
     <pubDate>Wed, 23 Mar 2022 00:00:00 GMT</pubDate>
     <author> (Gibo Ryu)</author>
-    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category>
+    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category><category>실용주의-프로그래머</category>
   </item>
 
   <item>
@@ -97,17 +107,17 @@
     <description>~ 2장 실용주의 접근법</description>
     <pubDate>Tue, 22 Mar 2022 00:00:00 GMT</pubDate>
     <author> (Gibo Ryu)</author>
-    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category>
+    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category><category>실용주의-프로그래머</category>
   </item>
 
   <item>
-    <guid>https://ryugibo.github.io/books/log/nomadcorders-bookclub-pragmatic-til-1</guid>
+    <guid>https://ryugibo.github.io/books/log/nomadcoders-bookclub-pragmatic-1</guid>
     <title>노마드코더 북클럽 실용주의 프로그래머 TIL 1일차</title>
-    <link>https://ryugibo.github.io/books/log/nomadcorders-bookclub-pragmatic-til-1</link>
+    <link>https://ryugibo.github.io/books/log/nomadcoders-bookclub-pragmatic-1</link>
     <description>서문 ~ 1장.실용주의 철학</description>
     <pubDate>Sun, 20 Mar 2022 00:00:00 GMT</pubDate>
     <author> (Gibo Ryu)</author>
-    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category>
+    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category><category>실용주의-프로그래머</category>
   </item>
 
     </channel>

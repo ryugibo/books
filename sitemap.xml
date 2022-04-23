@@ -21,6 +21,14 @@
   </url>
 
   <url>
+    <loc>https://ryugibo.github.io/books/log/nomadcoders-bookclub-cleancode-1</loc>
+  </url>
+
+  <url>
+    <loc>https://ryugibo.github.io/books/log/nomadcoders-bookclub-pragmatic-1</loc>
+  </url>
+
+  <url>
     <loc>https://ryugibo.github.io/books/log/nomadcoders-bookclub-pragmatic-10</loc>
   </url>
 
@@ -57,10 +65,6 @@
   </url>
 
   <url>
-    <loc>https://ryugibo.github.io/books/log/nomadcorders-bookclub-pragmatic-til-1</loc>
-  </url>
-
-  <url>
     <loc>https://ryugibo.github.io/books/tags/til</loc>
   </url>
 
@@ -73,6 +77,14 @@
   </url>
 
   <url>
+    <loc>https://ryugibo.github.io/books/tags/실용주의-프로그래머</loc>
+  </url>
+
+  <url>
     <loc>https://ryugibo.github.io/books/tags/책</loc>
+  </url>
+
+  <url>
+    <loc>https://ryugibo.github.io/books/tags/클린코드</loc>
   </url>
 </urlset>
