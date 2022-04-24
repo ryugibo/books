@@ -7,9 +7,19 @@
       <language>ko-kr</language>
       <managingEditor> (Gibo Ryu)</managingEditor>
       <webMaster> (Gibo Ryu)</webMaster>
-      <lastBuildDate>Sun, 24 Apr 2022 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 24 Apr 2022 14:20:00 GMT</lastBuildDate>
       <atom:link href="https://ryugibo.github.io/books/tags/클린코드/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://ryugibo.github.io/books/log/nomadcoders-bookclub-cleancode-02</guid>
+    <title>클린코드 - 2장. 의미있는 이름</title>
+    <link>https://ryugibo.github.io/books/log/nomadcoders-bookclub-cleancode-02</link>
+    null
+    <pubDate>Sun, 24 Apr 2022 14:20:00 GMT</pubDate>
+    <author> (Gibo Ryu)</author>
+    <category>노마드코더</category><category>북클럽</category><category>책</category><category>TIL</category><category>클린코드</category>
+  </item>
+
   <item>
     <guid>https://ryugibo.github.io/books/log/nomadcoders-bookclub-cleancode-01</guid>
     <title>클린코드 - 1장. 깨끗한 코드</title>
